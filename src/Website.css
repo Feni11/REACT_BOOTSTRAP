@@ -1576,9 +1576,6 @@ body {
   }
 
   /* ========== FOOTER ========== */
-  .footer {
-    padding-top: 30vh;
-  }
 
   .footer-text li {
     padding: 2px 0;
@@ -1799,6 +1796,11 @@ body {
   }
 
   /* ========== FOOTER ========== */
+
+  .footer {
+    padding-top: 50vh;
+  }
+
   .footer-text h5 {
     font-size: 23px;
   }
