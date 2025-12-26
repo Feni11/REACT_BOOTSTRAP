@@ -1798,8 +1798,9 @@ body {
   /* ========== FOOTER ========== */
 
   .footer {
+    min-height: 730px;
+    height: auto;
     padding-top: 55vh;
-    height: 730px;
   }
 
   .footer-text h5 {
