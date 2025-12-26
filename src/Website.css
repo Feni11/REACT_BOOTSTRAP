@@ -1577,8 +1577,7 @@ body {
 
   /* ========== FOOTER ========== */
   .footer {
-    min-height: 760px;
-    height: auto;
+    padding-top: 50vh;
   }
 
   .footer-text li {
@@ -1774,7 +1773,6 @@ body {
 
   .sec3 .sec3-desc p {
     margin: 0 3% 3% 3%;
-    font-size: 12px;
   }
 
   /* ========== SECTION 4 ========== */
@@ -2225,10 +2223,6 @@ body {
     font-size: 38px;
   }
 
-  .sec4 .sec4-expert p {
-    font-size: 13px;
-  }
-
   /* ========== SECTION 5 ========== */
   .sec5 .sec5-packages .packages h1 {
     font-size: 43px;
@@ -2380,10 +2374,6 @@ body {
     font-size: 34px;
   }
 
-  .sec4 .sec4-expert p {
-    font-size: 12px;
-  }
-
   .sec4 .sec4-expert .sec4-btn {
     width: 42%;
     height: 36px;
@@ -2487,11 +2477,6 @@ body {
 
   .sec4 .sec4-expert .sec4-btn {
     width: 44%;
-  }
-
-  .sec4 .sec4-expert p {
-    font-size: 12px;
-    /* font-weight: 600; */
   }
 
   /* ========== FOOTER ========== */
@@ -2775,8 +2760,8 @@ body {
 
   /* ========== FOOTER ========== */
   .footer-text p strong {
-        font-size: 12px;
-    }
+    font-size: 12px;
+  }
 
 }
 
@@ -2884,11 +2869,6 @@ body {
 
   .sec3 .sec3-heading .destination span {
     font-size: 14.5px;
-  }
-
-  .sec3 .sec3-desc p {
-    font-size: 11px;
-    font-weight: 600;
   }
 
   /* ========== SECTION 4 ========== */
