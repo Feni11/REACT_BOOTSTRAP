@@ -2440,6 +2440,13 @@ body {
 }
 
 @media (max-width: 362px) {
+
+  /* ========== SECTION 2 ========== */
+  .item .sec2-info p {
+    font-size: 16px;
+  }
+
+  /* ========== FOOTER ========== */
   .footer-text span {
     font-size: 12.5px;
   }
@@ -2769,6 +2776,14 @@ body {
 
   .sec2 .sec2-packages .packages h1 {
     font-size: 27px;
+  }
+
+  .item h3 {
+    font-size: 26px;
+  }
+
+  .item .sec2-info p {
+    font-size: 15px;
   }
 
   /* ========== SECTION 3 ========== */
