@@ -1754,6 +1754,10 @@ body {
     top: 94.2%;
   }
 
+  .sec1-img {
+    margin-top: 10.5%;
+  }
+
   /* ========== SECTION 2 ========== */
   .sec2 .destination {
     width: 47%;
@@ -1767,8 +1771,12 @@ body {
     font-size: 46px;
   }
 
-  .sec1-img {
-    margin-top: 10.5%;
+  .item h3 {
+    font-size: 29px;
+  }
+
+  .item .sec2-info p {
+    font-size: 18px;
   }
 
   /* ========== SECTION 3 ========== */
