@@ -68,7 +68,7 @@ body {
 }
 
 .mobile-menu {
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .mobile-menu li a {
@@ -842,16 +842,16 @@ body {
   padding-top: 65vh;
   position: relative;
   margin-top: 6%; */
-  background-size: cover;         
-  background-position: center bottom; 
+  background-size: cover;
+  background-position: center bottom;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 100vh;              
-  height: auto;                  
+  min-height: 100vh;
+  height: auto;
   display: flex;
-  align-items: flex-end;          
-  padding-top: 40vh;             
-  padding-bottom: 15px;           
+  align-items: flex-end;
+  padding-top: 40vh;
+  padding-bottom: 15px;
   margin-top: 6%;
 }
 
@@ -1523,6 +1523,7 @@ body {
 
   .item h3 {
     font-size: 30px;
+    padding: 0 15px;
   }
 
   .item .sec2-info p {
@@ -1783,9 +1784,19 @@ body {
     margin: 0 3% 3% 3%;
   }
 
+  .sec3-imgs img {
+    margin: 9px 0px;
+  }
+
   /* ========== SECTION 4 ========== */
   .sec4 .destination {
     width: 47%;
+  }
+
+  .sec4 .sec4-expert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   /* ========== SECTION 5 ========== */
@@ -1958,6 +1969,10 @@ body {
     margin-top: 15.5%;
   }
 
+  .card2 {
+    top: 63%;
+  }
+
   .badge {
     padding: 7px 19px;
   }
@@ -2018,6 +2033,22 @@ body {
   .sec5 .sec5-packages .packages h1 {
     font-size: 48px;
   }
+}
+
+@media (max-width: 472px) {
+
+  .card1 {
+    top: 31.3%;
+  }
+
+  .card2 {
+    top: 63.4%;
+  }
+
+  .card3 {
+    top: 95.4%;
+  }
+
 }
 
 @media (max-width: 457px) {
@@ -2578,6 +2609,11 @@ body {
 
   .sec2 .sec2-packages .packages h1 {
     font-size: 29px;
+  }
+
+  /* ========== SECTION 3 ========== */
+  .item h3 {
+    font-size: 27px;
   }
 
   /* ========== SECTION 4 ========== */
