@@ -94,12 +94,22 @@ body {
   align-items: center;
 }
 
+.book-btn .box:hover {
+  background-color: #E0E1DD;
+  border: 1px solid #091D33;
+  color: black;
+}
+
 .book-btn .box span {
   font-size: 16px;
   font-family: 'Syne', sans-serif;
   font-weight: 600;
   padding-top: 2px;
   color: white;
+}
+
+.book-btn .box:hover span {
+  color: black;
 }
 
 /* ================= MOBILE MENU ================= */
@@ -880,11 +890,19 @@ body {
   font-family: 'Syne', sans-serif;
 }
 
+.footer-text li:hover {
+  color: #cd7038;
+}
+
 .footer-text p {
   font-size: 16px;
   padding: 12px 0;
   font-family: 'Syne', sans-serif;
   margin: 0;
+}
+
+.footer-text span:hover {
+  color: #cd7038;
 }
 
 .footer-text span {
@@ -2081,6 +2099,12 @@ body {
   }
 }
 
+@media (max-width: 481px) {
+  .card1 {
+    top: 31.5%;
+  }
+}
+
 @media (max-width: 472px) {
 
   .card1 {
@@ -2175,6 +2199,12 @@ body {
     width: 60%;
   }
 
+}
+
+@media (max-width:447px) {
+  .card1 {
+    top: 31.5%;
+  }
 }
 
 @media (max-width: 440px) {
